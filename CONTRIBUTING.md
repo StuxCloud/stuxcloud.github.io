@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.cloud/logo.png" height="80" alt="Stux.Cloud Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.cloud/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.cloud/logo-dark.png"><img src="https://global.media.stux.cloud/logo-dark.png" height="80" alt="Stux.Cloud Logo"></picture>
 </p>
 
 # Contributing to stuxcloud.github.io
@@ -31,3 +31,7 @@ This project uses [Date Versioning](https://datevers.ing). To release:
 ## Before committing
 
 - Open `index.html` in a browser and confirm the redirect fires correctly
+
+---
+
+*Stux.Cloud is a part of the [Stux.Group](https://github.com/StuxGroup) brand of businesses.*
