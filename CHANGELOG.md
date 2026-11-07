@@ -5,6 +5,20 @@ All notable changes to stuxcloud.github.io are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.06
+
+### Added
+
+- A `test` branch. Work happens there, and changes reach `main` only through a pull request from `test` that needs CI to pass and is reviewed and merged by Leo. Release commits and tags are made on `test`
+- `.github/workflows/ci.yml`, which checks `VERSION.md` and the changelog on every push to `main` and `test` and on every pull request
+
+### Changed
+
+- `README.md` describes this repository as it is, Stux.Cloud's GitHub Pages site that sends visitors to [github.com/StuxCloud](https://github.com/StuxCloud), instead of a generic "redirect `username.github.io` to `example.com`" template. Its license line says the copyright is Stux.Group's, and its footer matches the other Stux.Cloud repos'
+- The logos in `README.md` and `CONTRIBUTING.md`, and the README footer's icons, follow GitHub's light or dark theme (`logo-light`/`logo-dark`, `icon-light`/`icon-dark`)
+- `CONTRIBUTING.md` ends with the Stux.Group note
+- The README's Versioning section and a new **Branches** section in `CONTRIBUTING.md` describe the `test` branch, and `commit.sh`/`commit.bat` suggest pushing to `test`
+
 ## v26.10.23
 
 ### Added
